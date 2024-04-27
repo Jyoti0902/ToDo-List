@@ -1,0 +1,133 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+}
+.main-content {
+  background-color: rgb(58, 54, 54);
+  padding-bottom: 20px;
+  width: 1000px;
+  margin-top: 100px;
+  margin: 100px auto;
+  border-radius: 20px;
+}
+.todo-title {
+  color: white;
+  text-align: center;
+}
+.todo-title1 {
+  color: white;
+  text-align: center;
+  text-decoration: line-through;
+}
+
+.input-fields {
+  display: flex;
+  width: 900px;
+  height: 80px;
+  margin: 25px auto;
+  justify-content: space-around;
+  background-color: rgb(181, 177, 177);
+  border-radius: 20px;
+}
+.title {
+  margin: 15px;
+}
+.title input {
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+}
+.addtask {
+  margin: 25px;
+}
+.addtask button {
+  padding: 10px;
+  width: 100px;
+  border-radius: 25px;
+  border: none;
+  background-color: white;
+}
+.update-btn{
+  transition: 0.6s;
+}
+.update-btn:hover{
+  background-color: orange;
+  color: white;
+}
+label {
+  font-weight: 700;
+}
+.task-container {
+  display: flex;
+  width: 900px;
+  height: 100px;
+  margin: 10px auto;
+  justify-content: space-around;
+  background-color: rgb(181, 177, 177);
+  border-radius: 20px;
+}
+.task-details,
+.task-btns {
+  margin: 10px;
+}
+.task-btns{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.complete-btn {
+  padding: 10px;
+  width: 100px;
+  border-radius: 25px;
+  border: 2px solid green;
+  background-color: transparent;
+  color: green;
+  margin: 5px;
+  transition: .6s;
+  cursor: pointer;
+}
+.complete-btn:hover {
+  background-color: green;
+  color: white;
+}
+.delete-btn {
+  padding: 10px;
+  width: 100px;
+  border-radius: 25px;
+  border: 2px solid red;
+  background-color: transparent;
+  color: red;
+  margin: 5px;
+  transition: .6s;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  background-color: red;
+  color: white;
+}
+.edit-btn{
+  padding: 10px;
+  width: 100px;
+  border-radius: 25px;
+  border: 2px solid blue;
+  background-color: transparent;
+  color: blue;
+  margin: 5px;
+  transition: .6s;
+  cursor: pointer;
+}
+.edit-btn:hover{
+  background-color: blue;
+  color: white;
+}
+.delall {
+  text-align: center;
+}
+.title-detail {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.title-detail p {
+  margin-left: 10px;
+}
